@@ -12,40 +12,35 @@ namespace TestWebDriver
 {
     class ImplicityWaitTraning
     {
-        private static IWebDriver _driver;
+        public static IWebDriver _driver;
 
         [Test]
-        public void ImplicityWait()
+        public void ImplicityTest()
         {
             _driver = new ChromeDriver();
-            _driver.Url = "http://vartutechnika.lt/";
+            _driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
+            IWebElement popUp = _driver.FindElement(By.Id("at-cv-lightbox-close"));
             _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            IWebElement cookies = _driver.FindElement(By.Id("cookiescript_close"));
-            cookies.Click();
-
-            cookies.Click();
-
+            popUp.Click();
+            
         }
 
-
-            /*_driver = new ChromeDriver();
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            _driver.Manage().Window.Maximize();
-            _driver.Url = "http://vartutechnika.lt/";
-            IWebElement cookies = _driver.FindElement(By.Id("cookiescript_close"));
-            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-             wait.Until(x => cookies.Displayed);
-            cookies.Click();*/
+        /*_driver = new ChromeDriver();
+        _driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
+            IWebElement popUp = _driver.FindElement(By.Id("at-cv-lightbox-close"));
+        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
+        wait.Until(x => popUp.Displayed);
+            popUp.Click();*/
         
 
-    
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
     }   
 
 
