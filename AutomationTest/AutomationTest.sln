@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTest", "AutomationTest\AutomationTest.csproj", "{FC4559A7-0AB4-4F41-ADA7-B7D70FA23E1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutomationTest", "AutomationTest", "{888B1B4B-B13C-4942-A277-8375804B5E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebDriver", "TestWebDriver\TestWebDriver.csproj", "{E5B165FF-7C45-4113-B4CC-50423FF7B4AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC4559A7-0AB4-4F41-ADA7-B7D70FA23E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4559A7-0AB4-4F41-ADA7-B7D70FA23E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4559A7-0AB4-4F41-ADA7-B7D70FA23E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4559A7-0AB4-4F41-ADA7-B7D70FA23E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B165FF-7C45-4113-B4CC-50423FF7B4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B165FF-7C45-4113-B4CC-50423FF7B4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B165FF-7C45-4113-B4CC-50423FF7B4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B165FF-7C45-4113-B4CC-50423FF7B4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC4559A7-0AB4-4F41-ADA7-B7D70FA23E1E} = {888B1B4B-B13C-4942-A277-8375804B5E4A}
+		{E5B165FF-7C45-4113-B4CC-50423FF7B4AE} = {888B1B4B-B13C-4942-A277-8375804B5E4A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CAC0A8B-32C1-4FD9-ABF1-2C39C603EA8B}
+	EndGlobalSection
+EndGlobal

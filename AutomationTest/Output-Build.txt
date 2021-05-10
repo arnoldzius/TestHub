@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: AutomationTest (AutomationTest\AutomationTest), Configuration: Debug Any CPU ------
+1>C:\Users\Arnold\source\repos\AutomationTest\AutomationTest\Uzklasine veikla.cs(49,20,49,34): warning CS0219: The variable 'expectedResult' is assigned but its value is never used
+1>C:\Users\Arnold\source\repos\AutomationTest\AutomationTest\Uzklasine veikla.cs(72,20,72,34): warning CS0219: The variable 'expectedResult' is assigned but its value is never used
+1>  AutomationTest -> C:\Users\Arnold\source\repos\AutomationTest\AutomationTest\bin\Debug\AutomationTest.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
