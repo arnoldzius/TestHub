@@ -24,8 +24,10 @@ namespace AutomationSolution.Page
 
         public WebDriverWait GetWait(int seconds = 10)
         {
-            return new WebDriverWait(Driver, TimeSpan.FromSeconds(seconds));
+            WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(seconds));
+            return wait;
         }
+
 
     }
 }
